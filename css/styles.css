@@ -1,9 +1,17 @@
+:root{
+    --primary-text-color: ;
+    --title-text-color: ;
+    --accent-color: #2196F3;
+}
 body{
  /* Главная */
 
 background: #FFFFFF;
 font-family: 'Roboto';
     
+}
+ul{
+    list-style: none;
 }
 /*верхняя линия*/
 .header{
@@ -14,70 +22,81 @@ font-family: 'Roboto';
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 /* identical to box height */
 letter-spacing: 0.03em;
 color: #2196F3;
+text-decoration: none;
+}
+.web-studio2{
+    color:  #000000;
+}
+.web-studio3{
+    color: #FFFFFF;
 }
 .studio{
 /* Студия */
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #2196F3;
+line-height: 1.14;
+color: #212121;
+text-decoration: none;
 }
 .studio:hover, 
 .studio:focus{
-    color: red;
+    color: var(--accent-color) ;
 }
 .potfolio{
 /* Портфолио */
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
+text-decoration: none;
 }
 .potfolio:hover,
 .portfolio:focus{
-    color: red;
+    color: var(--accent-color);
 }
 .contacts{
 /* Контакты */
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
+text-decoration: none;
 }
 .contacts:hover,
 .contacts:focus{
-    color: red;
+    color: var(--accent-color);
 }
 .link{
 /* info@devstudio.com */
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #757575;
+text-decoration: none;
 }
 .link:hover
 .link:focus{
-    color: red;
+    color: var(--accent-color);
 }
 .tel{
 /* +38 096 111 11 11 */
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
+text-decoration: none;
 }
 .tel:hover,
 .tel:focus{
-    color: red;
+    color: var(--accent-color);
 }
 /*шапка*/
 .header-2{
@@ -99,7 +118,7 @@ cursor: pointer;
  /* Эффективные решения для вашего бизнеса */
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 /* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
@@ -110,7 +129,7 @@ color: #FFFFFF;
  /* Внимание к деталям */
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -118,7 +137,7 @@ color: #212121;
 .text1{
  /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 letter-spacing: 0.03em;
 color: #757575;
@@ -127,7 +146,7 @@ color: #757575;
  /* Пунктуальность */
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -135,7 +154,7 @@ color: #212121;
 .text2{
  /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 letter-spacing: 0.03em;
 color: #757575;
@@ -144,7 +163,7 @@ color: #757575;
  /* Планирование */
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -152,7 +171,7 @@ color: #212121;
 .text3{
 /* Равным образом консультация с широким активом в значительной степени обуславливает. */
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 letter-spacing: 0.03em;
 color: #757575;
@@ -161,7 +180,7 @@ color: #757575;
 /* Современные технологии */
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -169,7 +188,7 @@ color: #212121;
 .text4{
 /* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 letter-spacing: 0.03em;
 color: #757575;
@@ -179,7 +198,7 @@ color: #757575;
 /* Чем мы занимаемся */
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 letter-spacing: 0.03em;
 color: #212121;
 }
@@ -200,7 +219,7 @@ background: url(creative-artist-web-design-with-working-colour-selection-graphic
  /* Наша команда */
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 letter-spacing: 0.03em;
 color: #212121;
 }
@@ -230,7 +249,7 @@ background: #2F303A;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 /* identical to box height */
 letter-spacing: 0.03em;
 color: #2196F3;
@@ -238,33 +257,40 @@ color: #2196F3;
 .location{
     /* г. Киев, пр-т Леси Украинки, 26 */
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 letter-spacing: 0.03em;
 color: #FFFFFF;
+text-decoration: none;
+}
+.location:hover,
+.location:focus{
+    color: var(--accent-color)
 }
 .link2{
     /* info@example.com */
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 
 .link2:hover
 .link2:focus{
-    color: red;
+    color: var(--accent-color);
 }
 .tel2{
  /* +38 099 111 11 11 */
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 .tel2:hover,
 .tel2:focus{
-    color: red;
+    color:var(--accent-color);
 }
