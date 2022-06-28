@@ -46,6 +46,13 @@ text-decoration: none;
 .studio:focus{
     color: var(--accent-color) ;
 }
+.studio.current{
+color: var(--accent-color);
+}
+.potfolio.current{
+    color: var(--accent-color);
+    }
+
 .potfolio{
 /* Портфолио */
 font-weight: 500;
@@ -81,7 +88,7 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 }
-.link:hover
+.link:hover,
 .link:focus{
     color: var(--accent-color);
 }
@@ -104,15 +111,25 @@ text-decoration: none;
 }
 .btn{
  /* bg */
-background: #2196F3;
+background: #F5F4FA;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
+font-family: inherit;
+}
+.btn:hover,
+.btn:focus{
+   background-color: var(--accent-color);
 }
 .btn-portfolio{
 background: #F5F4FA;
 border-radius: 4px;
 cursor: pointer;
+font-family: inherit;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+    background-color: var(--accent-color);
 }
 .title{
  /* Эффективные решения для вашего бизнеса */
@@ -262,6 +279,7 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 text-decoration: none;
+font-style:normal;
 }
 .location:hover,
 .location:focus{
@@ -275,9 +293,10 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
+font-style:normal;
 }
 
-.link2:hover
+.link2:hover,
 .link2:focus{
     color: var(--accent-color);
 }
@@ -289,6 +308,7 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
+font-style:normal;
 }
 .tel2:hover,
 .tel2:focus{
