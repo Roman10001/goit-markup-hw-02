@@ -1,6 +1,6 @@
 :root{
     --primary-text-color: ;
-    --title-text-color: ;
+    --title-text-color: #212121;
     --accent-color: #2196F3;
 }
 body{
@@ -39,7 +39,7 @@ text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-color: #212121;
+color: var(--title-text-color);
 text-decoration: none;
 }
 .studio:hover, 
@@ -59,7 +59,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--title-text-color);
 text-decoration: none;
 }
 .potfolio:hover,
@@ -72,7 +72,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--title-text-color);
 text-decoration: none;
 }
 .contacts:hover,
@@ -116,10 +116,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
 font-family: inherit;
+color: var(--title-text-color);
+border-radius: 4px;
 }
 .btn:hover,
 .btn:focus{
    background-color: var(--accent-color);
+   color: #F5F4FA;
 }
 .btn-portfolio{
 background: #F5F4FA;
@@ -130,6 +133,21 @@ font-family: inherit;
 .btn-portfolio:hover,
 .btn-portfolio:focus{
     background-color: var(--accent-color);
+    color:#F5F4FA ;
+}
+.name-img{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+.position-img{
+ font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: #757575;
+
 }
 .title{
  /* Эффективные решения для вашего бизнеса */
@@ -149,7 +167,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-text-color);
 }
 .text1{
  /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
@@ -166,7 +184,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-text-color);
 }
 .text2{
  /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
@@ -183,7 +201,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-text-color);
 }
 .text3{
 /* Равным образом консультация с широким активом в значительной степени обуславливает. */
@@ -200,7 +218,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-text-color);
 }
 .text4{
 /* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
@@ -217,7 +235,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-text-color);
 }
 .image1{
 /* img */
@@ -238,24 +256,76 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-text-color);
 }
 .photo1{
  /* card bg */
 background: #FFFFFF;
 
 }
+.photo1-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.photo1-position{
+    font-size: 16px;
+    line-height: 1.2;
+   letter-spacing: 0.03em;
+    color: #757575; 
+}
 .photo2{
 /* card bg */
 background: #FFFFFF;
+}
+.photo2-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.photo2-position{
+    font-size: 16px;
+    line-height: 1.2;
+   letter-spacing: 0.03em;
+    color: #757575; 
 }
 .photo3{
     /* card bg */
 background: #FFFFFF;
 }
+.photo3-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color); 
+}
+.photo3-position{
+    font-size: 16px;
+    line-height: 1.2;
+   letter-spacing: 0.03em;
+    color: #757575; 
+}
 .photo4{
     /* card bg */
 background: #FFFFFF;
+}
+.photo4-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.photo4-position{
+    font-size: 16px;
+    line-height: 1.2;
+   letter-spacing: 0.03em;
+    color: #757575; 
 }
 .footer{
 /* Footer bg */
